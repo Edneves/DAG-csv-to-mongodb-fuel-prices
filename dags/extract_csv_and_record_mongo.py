@@ -16,7 +16,7 @@ path_yaml = os.path.abspath(path_config)
     schedule=None,
     start_date=pendulum.datetime(2025, 4, 28, tz="UTC"),
     catchup=False,
-    tags=["ETL"],
+    tags=["ETL"]
 )
 def extract_csv_and_record_mongodb(path_yaml: str):
     @task
