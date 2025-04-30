@@ -1,0 +1,10 @@
+# Arquivo config.yml
+PATH: "PATH_TO_FILE_CSV"
+HOST: 'localhost'
+PORT: 27017
+USER: "admin"
+PASSWORD: "PASSWORD"
+DB_AUTHENTICATION: "admin"
+DB: 'Analise_Dados'
+COLECAO: "analise_preco_combustivel_2024"
+
